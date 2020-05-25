@@ -1,0 +1,4 @@
+
+TYPE
+	ensure_compiled : ARRAY[0..1] OF BOOL;
+END_TYPE

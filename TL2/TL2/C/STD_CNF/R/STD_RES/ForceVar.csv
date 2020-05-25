@@ -1,0 +1,14 @@
+Mover,1,@GV,0,1,73,1,0
+CimaEsq,1,@GV,0,1,73,2,0
+CimaDir,1,@GV,0,1,73,3,0
+BaixoEsq,1,@GV,0,1,73,4,0
+BaixoDir,1,@GV,0,1,73,5,0
+Vermelho,1,@GV,2,1,81,1,0
+Amarelo,1,@GV,2,1,81,2,0
+Verde,1,@GV,2,1,81,3,0
+Buzina,1,@GV,2,1,81,4,0
+SobeEsq,1,@GV,2,1,81,5,0
+SobeDir,1,@GV,2,1,81,6,0
+DescEsq,1,@GV,2,1,81,7,0
+DescDir,1,@GV,2,1,81,8,0
+manobras,3,@GV,0,2,81,0,0
