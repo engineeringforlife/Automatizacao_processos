@@ -2,14 +2,14 @@
 T: PROGRAM Main
 FW: NO
 CI#: 212
-QSL: 20
-QVE: 20
-QVPC: 20
+QSL: 22
+QVE: 22
+QVPC: 22
 QPar: 0
-QFBI: 6
+QFBI: 7
 *)
 @V 1 6 0
-Ponte_1	1	VAR	@FB:213
+Ponte_1	1	VAR	@FB:214
 		     
 
 ;
@@ -28,7 +28,7 @@ mover	3	VAR_EXTERNAL	@TYP:1
 
 @V 1 13 0
 SobeEsq	4	VAR_EXTERNAL	@TYP:1
-@RV 98		     
+@RV 99		     
 
 ;
 
@@ -40,7 +40,7 @@ BaixoEsq	5	VAR_EXTERNAL	@TYP:1
 
 @V 1 15 0
 Buzina	6	VAR_EXTERNAL	@TYP:1
-@RV 97		     
+@RV 98		     
 
 ;
 
@@ -52,7 +52,7 @@ CTU_1	7	VAR	@FB:203
 
 @V 1 25 0
 manobras	8	VAR_EXTERNAL	@TYP:18
-@RV 102		     
+@RV 103		     
 
 ;
 
@@ -75,56 +75,68 @@ CTU_2	11	VAR	@FB:203
 ;
 
 @V 1 33 0
-Ponte_2	12	VAR	@FB:213
+Ponte_2	12	VAR	@FB:214
 		     
 
 ;
 
 @V 1 38 0
 DescEsq	13	VAR_EXTERNAL	@TYP:1
-@RV 100		     
+@RV 101		     
 
 ;
 
 @V 1 39 0
 DescDir	14	VAR_EXTERNAL	@TYP:1
-@RV 101		     
+@RV 102		     
 
 ;
 
 @V 1 40 0
 SobeDir	15	VAR_EXTERNAL	@TYP:1
-@RV 99		     
+@RV 100		     
 
 ;
 
 @V 1 41 0
 Verde	16	VAR_EXTERNAL	@TYP:1
-@RV 96		     
+@RV 97		     
 
 ;
 
 @V 1 42 0
 Amarelo	17	VAR_EXTERNAL	@TYP:1
-@RV 95		     
+@RV 96		     
 
 ;
 
 @V 1 43 0
 Vermelho	18	VAR_EXTERNAL	@TYP:1
-@RV 94		     
+@RV 95		     
 
 ;
 
 @V 1 44 0
 BaixoDir	19	VAR_EXTERNAL	@TYP:1
-@RV 93		     
+@RV 94		     
 
 ;
 
 @V 1 45 0
 CimaDir	20	VAR_EXTERNAL	@TYP:1
 @RV 91		     
+
+;
+
+@V 1 50 0
+Clock_1	21	VAR	@FB:213
+		     
+
+;
+
+@V 1 51 0
+per	22	VAR	@TYP:12
+		     
 
 ;
 

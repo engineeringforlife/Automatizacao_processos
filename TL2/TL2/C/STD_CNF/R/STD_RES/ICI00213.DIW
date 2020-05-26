@@ -1,5 +1,5 @@
 (*
 QWS: 00002
 *)
-00001	00055	POE\Ponte\PonteV.vb
-00002	00000	POE\Ponte\Ponte.stb
+00001	00006	POE\Clock\ClockV.vb
+00002	00000	POE\Clock\Clock.stb
