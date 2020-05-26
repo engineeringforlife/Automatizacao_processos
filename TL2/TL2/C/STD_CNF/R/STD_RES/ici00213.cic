@@ -2,9 +2,9 @@
 T: FUNCTION_BLOCK Clock
 FW: NO
 CI#: 213
-QSL: 37
-QJM: 4
-QJ: 3
+QSL: 46
+QJM: 6
+QJ: 5
 QR: 0
 *)
 1 2 0		@FUORG 0	@67 1 VAR
@@ -26,7 +26,7 @@ QR: 0
 1 6 0		@FUPAR 0	@IV 6
 1 6 0		@FUCA 0	
 1 6 0		JMPCN	@LBL 1
-1 7 0		LD	@TYP:3# 00#0000
+1 7 0		LD	@TYP:1# 0
 @BPV 1 7 0		ST	@IV 3
 1 8 0		JMP	@LBL 2
 1 8 0	@LBL 1		
@@ -39,8 +39,17 @@ QR: 0
 1 8 0		@FUPAR 1	@IV 6
 1 8 0		@FUCA 1	
 1 8 0		JMPCN	@LBL 3
-1 9 0		LD	@TYP:3# 00#0001
+1 9 0		LD	@TYP:1# 1
 @BPV 1 9 0		ST	@IV 3
+1 10 0		JMP	@LBL 4
 1 10 0	@LBL 3		
-1 10 0	@LBL 4		
-1 11 0	@LBL 2		
+1 10 0		@FUORG 0	@67 1 VAR
+@BPV 1 10 0		@FUPAR 0	@IV 2
+1 10 0		@FUCA 0	
+1 10 0		JMPCN	@LBL 5
+1 11 0		LD	@TYP:1# 0
+@BPV 1 11 0		ST	@IV 3
+1 12 0	@LBL 5		
+1 12 0	@LBL 6		
+1 13 0	@LBL 4		
+1 14 0	@LBL 2		

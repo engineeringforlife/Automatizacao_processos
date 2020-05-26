@@ -2,9 +2,9 @@
 T: PROGRAM Main
 FW: NO
 CI#: 212
-QSL: 22
-QVE: 22
-QVPC: 22
+QSL: 23
+QVE: 23
+QVPC: 23
 QPar: 0
 QFBI: 7
 *)
@@ -137,6 +137,12 @@ Clock_1	21	VAR	@FB:213
 @V 1 51 0
 per	22	VAR	@TYP:12
 		     
+
+;
+
+@V 1 56 0
+Start	23	VAR_EXTERNAL	@TYP:1
+@RV 93		     
 
 ;
 
