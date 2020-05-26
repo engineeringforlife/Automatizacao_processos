@@ -2,11 +2,11 @@
 T: FUNCTION_BLOCK Ponte
 FW: NO
 CI#: 213
-QSL: 54
-QVE: 54
-QVPC: 54
+QSL: 55
+QVE: 55
+QVPC: 55
 QPar: 14
-QFBI: 21
+QFBI: 22
 *)
 @V 1 6 0
 SR_1	1	VAR	@FB:208
@@ -328,6 +328,12 @@ Mover	53	VAR_INPUT	@TYP:1
 
 @V 1 91 0
 SR_16	54	VAR	@FB:208
+		     
+
+;
+
+@V 1 92 0
+RS_1	55	VAR	@FB:207
 		     
 
 ;
