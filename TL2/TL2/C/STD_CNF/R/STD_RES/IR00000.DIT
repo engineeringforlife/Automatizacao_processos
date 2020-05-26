@@ -2,9 +2,9 @@
 T: RESOURCE STD_RES
 FW: NO
 CI#: 0
-QSL: 103
-QVE: 103
-QVPC: 103
+QSL: 104
+QVE: 104
+QVPC: 104
 QPar: 0
 QFBI: 0
 *)
@@ -537,91 +537,97 @@ ONBOARD_OUTPUT_OVERLOAD	88	VAR_GLOBAL	@TYP:1
 ;
 
 @V 2 114 0
-Mover	89	VAR_GLOBAL	@TYP:1
+Emerg	89	VAR_GLOBAL	@TYP:1
+%IX 0.6		     
+
+;
+
+@V 2 115 0
+Mover	90	VAR_GLOBAL	@TYP:1
 %IX 0.0		     
 @TYP:1# 0
 ;
 
-@V 2 115 0
-CimaEsq	90	VAR_GLOBAL	@TYP:1
+@V 2 116 0
+CimaEsq	91	VAR_GLOBAL	@TYP:1
 %IX 0.1		     
 @TYP:1# 0
 ;
 
-@V 2 116 0
-CimaDir	91	VAR_GLOBAL	@TYP:1
+@V 2 117 0
+CimaDir	92	VAR_GLOBAL	@TYP:1
 %IX 0.2		     
 @TYP:1# 0
 ;
 
-@V 2 117 0
-BaixoEsq	92	VAR_GLOBAL	@TYP:1
+@V 2 118 0
+BaixoEsq	93	VAR_GLOBAL	@TYP:1
 %IX 0.3		     
 @TYP:1# 0
 ;
 
-@V 2 118 0
-Start	93	VAR_GLOBAL	@TYP:1
+@V 2 119 0
+Start	94	VAR_GLOBAL	@TYP:1
 %IX 0.5		     
 
 ;
 
-@V 2 119 0
-BaixoDir	94	VAR_GLOBAL	@TYP:1
+@V 2 120 0
+BaixoDir	95	VAR_GLOBAL	@TYP:1
 %IX 0.4		     
 @TYP:1# 0
 ;
 
-@V 2 120 0
-Vermelho	95	VAR_GLOBAL	@TYP:1
+@V 2 121 0
+Vermelho	96	VAR_GLOBAL	@TYP:1
 %QX 2.0		     
 @TYP:1# 0
 ;
 
-@V 2 121 0
-Amarelo	96	VAR_GLOBAL	@TYP:1
+@V 2 122 0
+Amarelo	97	VAR_GLOBAL	@TYP:1
 %QX 2.1		     
 @TYP:1# 0
 ;
 
-@V 2 122 0
-Verde	97	VAR_GLOBAL	@TYP:1
+@V 2 123 0
+Verde	98	VAR_GLOBAL	@TYP:1
 %QX 2.2		     
 @TYP:1# 0
 ;
 
-@V 2 123 0
-Buzina	98	VAR_GLOBAL	@TYP:1
+@V 2 124 0
+Buzina	99	VAR_GLOBAL	@TYP:1
 %QX 2.3		     
 @TYP:1# 0
 ;
 
-@V 2 124 0
-SobeEsq	99	VAR_GLOBAL	@TYP:1
+@V 2 125 0
+SobeEsq	100	VAR_GLOBAL	@TYP:1
 %QX 2.4		     
 @TYP:1# 0
 ;
 
-@V 2 125 0
-SobeDir	100	VAR_GLOBAL	@TYP:1
+@V 2 126 0
+SobeDir	101	VAR_GLOBAL	@TYP:1
 %QX 2.5		     
 @TYP:1# 0
 ;
 
-@V 2 126 0
-DescEsq	101	VAR_GLOBAL	@TYP:1
+@V 2 127 0
+DescEsq	102	VAR_GLOBAL	@TYP:1
 %QX 2.6		     
 @TYP:1# 0
 ;
 
-@V 2 127 0
-DescDir	102	VAR_GLOBAL	@TYP:1
+@V 2 128 0
+DescDir	103	VAR_GLOBAL	@TYP:1
 %QX 2.7		     
 @TYP:1# 0
 ;
 
-@V 2 128 0
-manobras	103	VAR_GLOBAL	@TYP:18
+@V 2 129 0
+manobras	104	VAR_GLOBAL	@TYP:18
 %QW 0		     
 @TYP:18# 00#0000
 ;
